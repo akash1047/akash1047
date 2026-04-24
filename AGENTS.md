@@ -10,13 +10,13 @@ This repository is a documentation-first GitHub profile project.
 - `context/role-playbooks/`: Role positioning (`frontend`, `backend`, `fullstack`, `devops`, `ai`).
 - `context/tailoring-prompts.md`: Prompt templates for resume generation.
 - `resume/`: Tailored resume drafts (`frontend.md`, `backend.md`, `fullstack.md`, `devops.md`).
-- `.agents/codex/instructions/`: AI-readable instruction mirrors for Codex workflows.
+- `.codex/instructions/`: AI-readable instruction mirrors for Codex workflows.
 
 Keep role updates consistent: update `context/master-profile.md` first, then playbooks, then `resume/`.
 
 ## AI Instruction Mirrors
 
-Use [`.agents/codex/instructions/index.md`](/home/akash/iam/akash1047/.agents/codex/instructions/index.md) as the machine entrypoint.  
+Use [`.codex/instructions/index.md`](/home/akash/iam/akash1047/.codex/instructions/index.md) as the machine entrypoint.  
 Human-facing docs remain canonical; mirror files are synchronization aids.
 
 ## Build, Test, and Development Commands
@@ -26,7 +26,7 @@ No build pipeline exists; changes are content-based and validated with lightweig
 - `rg --files`: List tracked content quickly.
 - `rg "Evidence ID|Role Fit" context/`: Verify evidence schema usage.
 - `git diff -- README.md context/ resume/`: Review only profile-related edits before commit.
-- `git diff -- AGENTS.md .agents/codex/ context/`: Review instruction mirror sync.
+- `git diff -- AGENTS.md .codex/ context/`: Review instruction mirror sync.
 - `git log --oneline -n 10`: Check recent commit style and scope.
 
 ## Coding Style & Naming Conventions
