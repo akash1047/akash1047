@@ -14,7 +14,6 @@ This directory is a public-safe knowledge base for generating role-specific resu
 - `role-playbooks/*.md`: Positioning strategy and bullet priorities per role.
 - `tailoring-prompts.md`: Prompt-ready workflows to generate targeted drafts.
 - `maintenance-guide.md`: How to update safely without profile drift.
-- AI mirror: `.codex/instructions/resume-tailoring.md` for machine-first parsing.
 
 ## Evidence block schema
 
